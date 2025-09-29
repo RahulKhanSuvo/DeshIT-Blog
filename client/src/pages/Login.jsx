@@ -12,7 +12,7 @@ const Login = () => {
               placeholder="abc@example.com"
               name="email"
               type="email"
-              className="h-11 bg-[#E3E3E3] px-5 py-6 border-none rounded-md focus:border-none outline-none text-"
+              className="h-11 bg-[#E3E3E3] px-5 py-6 border-none rounded-lg focus:border-none outline-none text-"
             />
           </div>
           <div className="flex flex-col gap-2 w-full ">
@@ -21,11 +21,11 @@ const Login = () => {
               placeholder="••••••••"
               name="password"
               type="password"
-              className="h-11 bg-[#E3E3E3] px-5 py-6 border-none rounded-md 
+              className="h-11 bg-[#E3E3E3] px-5 py-6 border-none rounded-lg 
              focus:outline-none text-gray-800 placeholder-gray-500"
             />
           </div>
-          <button className="bg-[#6200EE] w-full rounded-md py-3 text-white">
+          <button className="bg-[#6200EE] w-full rounded-xl py-3 text-white">
             Login
           </button>
         </form>
